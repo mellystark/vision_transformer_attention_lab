@@ -1,0 +1,19 @@
+{
+  "model": "ViT-B/16",
+  "total_parameters": 85827109,
+  "best_val_macro_f1": 0.9472907908723056,
+  "test_loss": 0.241204402725773,
+  "test_accuracy": 0.9253202507495231,
+  "test_macro_precision": 0.9276207342324162,
+  "test_macro_recall": 0.9247153690113429,
+  "test_macro_f1": 0.9245086205803308,
+  "test_top5_accuracy": 0.9972744617061869,
+  "training_seconds": 101.67853220000143,
+  "checkpoint_mb": 327.46408557891846,
+  "latency_ms": 7.149049999497947,
+  "fps": 139.87872515512223,
+  "finetune_blocks": 2,
+  "full_finetune": false,
+  "batch_size": 8,
+  "accumulation_steps": 4
+}

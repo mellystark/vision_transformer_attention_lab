@@ -1,0 +1,17 @@
+PRETRAINED VISION TRANSFORMER DEMO
+============================================================
+Model: ViT-B/16
+Device: cuda
+Parameters: 86,567,656
+Input shape: (1, 3, 224, 224)
+
+Top-5 ImageNet predictions:
+1. plastic bag: 14.86%
+2. Egyptian cat: 11.75%
+3. tabby: 11.68%
+4. tiger cat: 7.24%
+5. hamper: 6.97%
+
+Median latency: 9.311 ms/image
+Estimated FPS: 107.40
+Peak GPU memory: 0.34 GB

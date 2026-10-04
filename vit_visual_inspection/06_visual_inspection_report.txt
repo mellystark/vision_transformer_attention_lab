@@ -1,0 +1,13 @@
+ViT-B/16 VISUAL INSPECTION
+============================================================
+Test images: 3669
+Correct predictions: 3423
+Wrong predictions: 246
+
+Occlusion sample index: 0
+Occlusion predicted class: Abyssinian
+Baseline confidence: 61.92%
+
+Interpretation:
+Positive occlusion values indicate patches whose masking decreased confidence in the original predicted class.
+Higher positive values therefore indicate stronger support for that prediction under this perturbation test.
